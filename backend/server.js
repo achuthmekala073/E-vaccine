@@ -19,7 +19,7 @@ app.use(
     allowedHeaders: ['Content-Type', 'Authorization'],
   })
 );
-}
+
 
 // Express JSON body parser
 app.use(express.json());
